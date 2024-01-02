@@ -25,7 +25,7 @@
                         </label>
                         <div class="input-field">
                             <i class="fa-solid fa-weight-scale"></i>
-                            <input type="number" id="weight" required>
+                            <input type="number" id="weight" placeholder="ex.: 60" required>
                             <span>
                                 Kg
                             </span>
@@ -38,22 +38,23 @@
                         </label>
                         <div class="input-field">
                             <i class="fa-solid fa-ruler"></i>
-                            <input type="number" id="height" required>
+                            <input type="number" id="height" placeholder="ex.: 170" required>
                             <span>
-                                Kg
+                                m
                             </span>
                         </div>
                     </div>
+                    
                     <button id="calculate">
                         Calcular
                     </button>
                 </form>
-                <div id="infos">
+                <div id="infos" class="hidden">
                     <div id="result">
                         <div id="bmi">
                             <span id="value"></span>
                             <span>Seu IMC</span>
-                        </div>
+                        </div>                        
                         <div id="description">
                             <span></span>
                         </div>
